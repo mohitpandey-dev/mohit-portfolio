@@ -451,3 +451,16 @@ nav a:hover,.active{
         padding: 18px;
     }
 }
+@media (max-width: 480px) {
+    .grid-con{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .item h3{
+        font-size: 0.8rem;
+    }
+    .item img{
+        height: 32px;
+        width: 32px;
+    }
+}
